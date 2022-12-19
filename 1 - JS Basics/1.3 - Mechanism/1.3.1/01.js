@@ -2,7 +2,12 @@
 // proporcionado es mayor que 5 y "MENOR" en caso contrario
 
 const isGreatherThan5 = (number) => {
-  // 👇🏻 Añade tu lógica aquí
+  // 👇🏻
+  if (number > 5) {
+    return 'MAYOR';
+  } /* else { */
+  return 'MENOR';
+  /* } */
   // 👆🏻
 };
 

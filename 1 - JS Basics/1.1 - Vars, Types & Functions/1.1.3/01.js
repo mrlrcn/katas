@@ -5,7 +5,7 @@ const sayHi = function() {
 };
 
 // 👇🏻 Invoca la función aquí
-
+sayHi();
 // 👆🏻
 
 // ✅  => Hi!

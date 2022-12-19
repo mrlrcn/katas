@@ -2,7 +2,9 @@
 // sintaxis abreviada de las arrow functions
 
 // 👇🏻 Crea aquí tu función
-
+const multiply = (value1, value2) => {
+  return value1 * value2;
+ }
 // 👆🏻
 
 const value1 = multiply(1, 1);

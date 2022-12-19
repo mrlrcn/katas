@@ -5,7 +5,7 @@ const createCounter = () => {
   return counter;
 }
 
-createCounter();
+const show5 = createCounter();
 
 // ❓
-console.log(counter);
+console.log(show5);

@@ -10,6 +10,6 @@ const primera = () => {
 const finalName = primera();
 
 // 👇🏻 Añade entre las comillas el nombre que contiene finalName y name;
-console.log(finalName, '');
-console.log(name, '');
+console.log(finalName, 'Jon');
+console.log(name, 'Pepe');
 // 👆🏻
