@@ -9,3 +9,5 @@ const tweets = [
 
 // Utiliza un bucle para recorrer los tweets y modificar el html
 // Recuerda que innerHTML REEMPLAZA Y NO AÑADE, por lo que tendras que ir construyendo el texto
+
+// Pintar INFORMACION  de los TWEETS en el MAIN podemos darle estilos (PREGUNTAR)

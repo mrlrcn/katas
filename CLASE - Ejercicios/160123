@@ -1,0 +1,18 @@
+ /* EN HTML TENDRIAMOS:
+ <body>
+    <h1>Traductor mimimi</h1>
+    <p class="contenedor"></p>
+    <input id="traductor">
+    <button class="translate">Traducir</button>
+
+    <script src="./index.js"></script>
+</body>
+*/
+const button = document.querySelector('.translate');
+
+button.addEventListener('click', function() {
+  let inputValue = document.querySelector("#traductor").value;
+  let inputValueMayus = inputValue.toUpperCase();
+
+  document.querySelector('.contenedor').textContent = inputValueMayus;
+});
